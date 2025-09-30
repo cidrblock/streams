@@ -1,6 +1,9 @@
 
 [
-    {"name": "Big 615", "url": "https://rfcm.streamguys1.com/big615-mp3"},
+  {
+    "name": "Big 615", 
+    "url": "https://rfcm.streamguys1.com/big615-mp3"
+  },
   {
     "name": "Awesome Radio Hits",
     "url": "http://stream.example.com/hits",
