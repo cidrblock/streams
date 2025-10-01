@@ -6,6 +6,11 @@
     "logo": "big615.jpg"
   },
   {
+    "name": "KBGE", 
+    "url": "https://ice41.securenetsystems.net/KBGE",
+    "logo": "kbge.png"
+  },
+  {
     "name": "KUOW", 
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KUOWFM_HIGH_MP3.mp3",
     "logo": "kuow.jpg"
