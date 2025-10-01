@@ -2,32 +2,7 @@
 [
   {
     "name": "Big 615", 
-    "url": "https://rfcm.streamguys1.com/big615-mp3"
-  },
-  {
-    "name": "Awesome Radio Hits",
-    "url": "http://stream.example.com/hits",
-    "description": "All the best hits, all the time.",
-    "genre": "Pop",
-    "bitrate": "128kbps"
-  },
-  {
-    "name": "Deep Tech Vibes",
-    "url": "http://stream.example.com/deeptech",
-    "description": "Underground electronic music.",
-    "genre": "Electronic",
-    "bitrate": "192kbps"
-  },
-  {
-    "name": "Classical Journey",
-    "url": "http://stream.example.com/classical",
-    "description": "Timeless classical pieces.",
-    "genre": "Classical",
-    "bitrate": "256kbps"
-  },
-  {
-    "name": "News & Talk FM",
-    "url": "http://stream.example.com/news",
-    "genre": "Talk"
+    "url": "https://rfcm.streamguys1.com/big615-mp3",
+    "logo": "big615.jpg"
   }
 ]
