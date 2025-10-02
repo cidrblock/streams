@@ -19,5 +19,10 @@
     "name": "102.7 The Peak", 
     "url": "https://redirect.jpbgdigital.com/CKPK?player_type=tunein",
     "logo": "peak.jpg"
+  },
+  {
+    "name": "Radio Paradise", 
+    "url": "http://stream.radioparadise.com/aac-128",
+    "logo": "radioparadise.png"
   }
 ]
