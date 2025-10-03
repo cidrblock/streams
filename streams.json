@@ -6,12 +6,12 @@
     "logo": "big615.jpg"
   },
   {
-    "name": "KBGE", 
+    "name": "KBGE - The Bridge", 
     "url": "https://ice41.securenetsystems.net/KBGE",
     "logo": "kbge.png"
   },
   {
-    "name": "KUOW", 
+    "name": "KUOW Public Radio", 
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KUOWFM_HIGH_MP3.mp3",
     "logo": "kuow.jpg"
   },
@@ -24,5 +24,10 @@
     "name": "Radio Paradise", 
     "url": "http://stream.radioparadise.com/aac-128",
     "logo": "radioparadise.png"
+  },
+  {
+    "name": "KEXP – Where the Music Matters", 
+    "url": "https://kexp.streamguys1.com/kexp160.aac",
+    "logo": "kexp.png"
   }
 ]
