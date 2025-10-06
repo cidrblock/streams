@@ -29,5 +29,10 @@
     "name": "KEXP – Where the Music Matters", 
     "url": "https://kexp.streamguys1.com/kexp160.aac",
     "logo": "kexp.png"
+  },
+  {
+    "name": "Swing Street Radio", 
+    "url": "https://s1.voscast.com:10413/stream",
+    "logo": "swingstreetradio.png"
   }
 ]
