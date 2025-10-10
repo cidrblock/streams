@@ -96,7 +96,7 @@
     },
     {
         "name": "Linn Jazz",
-        "url": "http://radio.linn.co.uk:8005/autodj",
+        "url": "http://radio.linn.co.uk:8000/autodj",
         "logo": "linnjazz.png"
     },
     {
