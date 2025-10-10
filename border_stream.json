@@ -65,6 +65,11 @@
       "logo": "swingstreetradio.png"
     },
     {
+      "name": "Soma fm - Groove Salad", 
+      "url": "https://somafm.com/groovesalad130.pls",
+      "logo": "groovesalad.png"
+    },
+    {
       "name": "Soma fm - Folk Forward", 
       "url": "https://somafm.com/folkfwd130.pls",
       "logo": "folkfwd.jpg"
@@ -72,7 +77,7 @@
     {
       "name": "Soma fm - Boot Liquor", 
       "url": "https://somafm.com/bootliquor130.pls",
-      "logo": "bootliquor.jpg"
+      "logo": "bootliquor.png"
     },
     {
       "name": "Soma fm - Thistle Radio", 
