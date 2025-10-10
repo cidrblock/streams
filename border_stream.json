@@ -76,15 +76,33 @@
     },
     {
       "name": "Soma fm - Boot Liquor", 
-      "url": "https://somafm.com/bootliquor130.pls",
+      "url": "wget https://somafm.com/bootliquor130.pls",
       "logo": "bootliquor.png"
     },
     {
       "name": "Soma fm - Thistle Radio", 
       "url": "https://somafm.com/thistle130.pls",
       "logo": "thistle.jpg"
+    },
+    {
+      "name": "Linn Radio",
+      "url": "http://radio.linn.co.uk:8003/autodj",
+      "logo": "linnradio.png",
+    },
+    {
+        "name": "Linn Classical",
+        "url": "http://radio.linn.co.uk:8004/autodj",
+        "logo": "linnclassical.png"
+    },
+    {
+        "name": "Linn Jazz",
+        "url": "http://radio.linn.co.uk:8005/autodj",
+        "logo": "linnjazz.png"
+    },
+    {
+      "name": "BBC World Service",
+      "url": "http://stream.live.vc.bbcmedia.co.uk/bbc_world_service",
+      "logo": "bbcworldservice.png"
     }
-
-
   ]
 }
