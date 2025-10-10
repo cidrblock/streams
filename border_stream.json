@@ -63,6 +63,23 @@
       "name": "Swing Street Radio", 
       "url": "https://s1.voscast.com:10413/stream",
       "logo": "swingstreetradio.png"
+    },
+    {
+      "name": "Soma fm - Folk Forward", 
+      "url": "https://somafm.com/folkfwd130.pls",
+      "logo": "folkfwd.jpg"
+    },
+    {
+      "name": "Soma fm - Boot Liquor", 
+      "url": "https://somafm.com/bootliquor130.pls",
+      "logo": "bootliquor.jpg"
+    },
+    {
+      "name": "Soma fm - Thistle Radio", 
+      "url": "https://somafm.com/thistle130.pls",
+      "logo": "thistle.jpg"
     }
+
+
   ]
 }
