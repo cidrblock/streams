@@ -76,7 +76,7 @@
     },
     {
       "name": "Soma fm - Boot Liquor", 
-      "url": "wget https://somafm.com/bootliquor130.pls",
+      "url": "https://somafm.com/bootliquor130.pls",
       "logo": "bootliquor.png"
     },
     {
