@@ -108,6 +108,14 @@
       "name": "KCRW - 88.9 FM",
       "url": "https://streams.kcrw.com/kcrw_aac",
       "logo": "kcrw.webp"
+    },
+    { "name": "Jazz Groove - Mix 1",
+      "url": "http://west-mp3-128.streamthejazzgroove.com/stream",
+      "logo": "jazzgroove.png"
+    },
+    { "name": "Jazz Groove - Mix 2",
+      "url": "http://east-mp3-128.streamthejazzgroove.com/stream",
+      "logo": "jazzgroove.png"
     }
   ]
 }
