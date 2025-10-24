@@ -125,6 +125,10 @@
     { "name": "JB Radio 2",
       "url": "http://mediacp.jb-radio.net:8001/aac",
       "logo": "jbradio.webp"
-    }
+    },
+    {
+      "name": "WALM - Old Time Radio",
+      "url": "https://icecast.walmradio.com:8443/otr",
+      "logo": "walm.jpg"
   ]
 }
