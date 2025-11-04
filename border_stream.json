@@ -130,6 +130,11 @@
       "name": "WALM - Old Time Radio",
       "url": "https://icecast.walmradio.com:8443/otr",
       "logo": "walm.jpg"
+    },
+    {
+      "name": "Radio New Country",
+      "url": "https://radionewcountry.streamingmedia.it/stream",
+      "logo": "rnc.png"
     }
   ]
 }
