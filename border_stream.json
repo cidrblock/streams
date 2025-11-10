@@ -32,7 +32,14 @@
     {
       "name": "The Big 615", 
       "url": "https://rfcm.streamguys1.com/big615-mp3",
-      "logo": "big615.jpg"
+      "logo": "big615.jpg",
+      "ducking":
+        [
+          {
+            "start": "Advertisement",
+            "stop": "TIADEND"
+          }
+        ]
     },
     {
       "name": "KBGE - The Bridge", 
@@ -134,7 +141,14 @@
     {
       "name": "Radio New Country",
       "url": "https://radionewcountry.streamingmedia.it/stream",
-      "logo": "rnc.png"
+      "logo": "rnc.png",
+      "ducking":
+        [
+          {
+            "start": "Country short",
+            "stop": ""
+          }
+        ]
     }
   ]
 }
