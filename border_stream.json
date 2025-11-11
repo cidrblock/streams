@@ -121,22 +121,26 @@
     {
       "name": "WALM - Old Time Radio",
       "url": "https://icecast.walmradio.com:8443/otr",
-      "logo": "walm.jpg"
+      "logo": "walm.jpg",
+      "metadataPattern": "^.+ - (?<track>.+) by (?<artist>.+)$"
     },
     {
       "name": "WALM - Christmas Vinyl HD",
       "url": "https://icecast.walmradio.com:8443/christmas",
-      "logo": "walm_christmas.png"
+      "logo": "walm_christmas.png",
+      "metadataPattern": "^.+ - (?<track>.+) by (?<artist>.+)$"
     },
     {
       "name": "WALM - Classic Vinyl HD",
       "url": "https://icecast.walmradio.com:8443/classic",
-      "logo": "walm_vinyl.png"
+      "logo": "walm_vinyl.png",
+      "metadataPattern": "^.+ - (?<track>.+) by (?<artist>.+)$"
     },
     {
       "name": "WALM - Jazz",
       "url": "https://icecast.walmradio.com:8443/jazz",
-      "logo": "walm_jazz.jpg"
+      "logo": "walm_jazz.jpg",
+      "metadataPattern": "^.+ - (?<track>.+) by (?<artist>.+)$"
     },
     {
       "name": "Radio New Country",
@@ -168,17 +172,20 @@
     {
       "name": "CBN - Cross Country",
       "url": "https://streams.cbnradio.com/country-128K",
-      "logo": "cbn_cross_country.jpg"
+      "logo": "cbn_cross_country.jpg",
+      "metadataPattern": "^.+ - (?<artist>[^|]+) \\| (?<track>[^|]+).*$"
     },
     {
       "name": "CBN - Cross Country Christmas",
       "url": "https://streams.cbnradio.com/country-christmas-128K",
-      "logo": "cbn_cross_country_christmas.jpg"
+      "logo": "cbn_cross_country_christmas.jpg",
+      "metadataPattern": "^.+ - (?<artist>[^|]+) \\| (?<track>[^|]+).*$"
     },
     {
       "name": "CBN - Christmas",
       "url": "https://streams.cbnradio.com/christmas-128K",
-      "logo": "cbn_christmas.jpg"
+      "logo": "cbn_christmas.jpg",
+      "metadataPattern": "^.+ - (?<artist>[^|]+) \\| (?<track>[^|]+).*$"
     }
   ]
 }
