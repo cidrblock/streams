@@ -130,7 +130,7 @@
     },
     {
       "name": "WALM - Classic Vinyl HD",
-      "url": "https://icecast1.walmradio.com:8443/classic",
+      "url": "https://icecast.walmradio.com:8443/classic",
       "logo": "walm_vinyl.png"
     },
     {
