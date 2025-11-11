@@ -164,6 +164,21 @@
       "name": "KING - Christmas",
       "url": "https://classicalking.streamguys1.com/christmas-aac-128k",
       "logo": "king_christmas.png"
+    },
+    {
+      "name": "CBN - Cross Country",
+      "url": "https://streams.cbnradio.com/country-128K",
+      "logo": "cbn_cross_country.jpg"
+    },
+    {
+      "name": "CBN - Cross Country Christmas",
+      "url": "https://streams.cbnradio.com/country-christmas-128K",
+      "logo": "cbn_cross_country_christmas.jpg"
+    },
+    {
+      "name": "CBN - Christmas",
+      "url": "https://streams.cbnradio.com/christmas-128K",
+      "logo": "cbn_christmas.jpg"
     }
   ]
 }
