@@ -140,7 +140,7 @@
       "name": "WALM - Jazz",
       "url": "https://icecast.walmradio.com:8443/jazz",
       "logo": "walm_jazz.jpg",
-      "metadataPattern": "^.+ - (?<track>.+) by (?<artist>.+)$"
+      "metadataPattern": "^(?<track>.+) by (?<artist>.+) - .+$"
     },
     {
       "name": "Radio New Country",
