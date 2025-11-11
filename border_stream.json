@@ -126,17 +126,17 @@
     {
       "name": "WALM - Christmas Vinyl HD",
       "url": "https://icecast.walmradio.com:8443/christmas",
-      "logo": "walm_christmas.jpg"
+      "logo": "walm_christmas.png"
     },
     {
-      "name": "WALM - Classic Vinyl",
-      "url": "https://icecast1.walmradio.com:8443/classic_opus",
-      "logo": "walm_vinyl.jpg"
+      "name": "WALM - Classic Vinyl HD",
+      "url": "https://icecast1.walmradio.com:8443/classic",
+      "logo": "walm_vinyl.png"
     },
     {
       "name": "WALM - Jazz",
-      "url": "https://icecast.walmradio.com:8443/jazz_opus",
-      "logo": "walm_vinyl.jpg"
+      "url": "https://icecast.walmradio.com:8443/jazz",
+      "logo": "walm_jazz.jpg"
     },
     {
       "name": "Radio New Country",
