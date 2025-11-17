@@ -201,6 +201,16 @@
       "name": "WEQX - the real alternative",
       "url": "http://crystalout.surfernetwork.com:8001/WEQX_MP3",
       "logo": "weqx.png"
+    },
+    {
+      "name": "Crooner Radio",
+      "url": "https://direct.croonerradio.fr/croonerradio-hifi.mp3",
+      "logo": "crooner.png"
+    }
+    {
+      "name": "Crooner Radio - Frank Sinatra",
+      "url": "https://direct.croonerradio.fr/croonerradio-franksinatra-midfi.mp3",
+      "logo": "crooner_frank.jpeg"
     }
   ]
 }
