@@ -186,6 +186,11 @@
       "url": "https://streams.cbnradio.com/christmas-128K",
       "logo": "cbn_christmas.jpg",
       "metadataPattern": "^(?<artist>[^|]+) \\| (?<track>[^|]+).*$"
+    },
+    {
+      "name": "Aardvark Blues",
+      "url": "https://streaming.live365.com/b77280_128mp3",
+      "logo": "aardvark.png"
     }
   ]
 }
