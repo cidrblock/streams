@@ -195,7 +195,14 @@
     {
       "name": "989X - Alternative Hits",
       "url": "https://streaming.live365.com/a13764",
-      "logo": "989x.png"
+      "logo": "989x.png",
+      "ducking":
+        [
+          {
+            "start": "Advertisement",
+            "stop": ""
+          }
+        ]
     },
     {
       "name": "WEQX - the real alternative",
