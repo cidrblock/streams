@@ -218,6 +218,12 @@
       "name": "Crooner Radio - Frank Sinatra",
       "url": "https://croonerradio-franksinatra.ice.infomaniak.ch/croonerradio-franksinatra-midfi.mp3",
       "logo": "crooner_frank.jpeg"
+    },
+    {
+
+      "name": "Bloomberg Radio",
+      "url": "http://opml.radiotime.com/Tune.ashx\?id\=s165740",
+      "logo": "bloomberg.jpeg"
     }
   ]
 }
