@@ -1,0 +1,1311 @@
+{
+  "timestamp": "2026-02-05T15:02:17.242Z",
+  "collections": [
+    {
+      "name": "ansible.builtin",
+      "info": {
+        "name": "ansible.builtin",
+        "version": "",
+        "authors": [],
+        "description": ""
+      },
+      "pluginTypes": [
+        {
+          "type": "become",
+          "plugins": [
+            {
+              "name": "runas",
+              "fullName": "ansible.builtin.runas",
+              "shortDescription": "Run As user"
+            },
+            {
+              "name": "su",
+              "fullName": "ansible.builtin.su",
+              "shortDescription": "Substitute User"
+            },
+            {
+              "name": "sudo",
+              "fullName": "ansible.builtin.sudo",
+              "shortDescription": "Substitute User DO"
+            }
+          ]
+        },
+        {
+          "type": "cache",
+          "plugins": [
+            {
+              "name": "jsonfile",
+              "fullName": "ansible.builtin.jsonfile",
+              "shortDescription": "JSON formatted files."
+            },
+            {
+              "name": "memory",
+              "fullName": "ansible.builtin.memory",
+              "shortDescription": "RAM backed, non persistent"
+            }
+          ]
+        },
+        {
+          "type": "callback",
+          "plugins": [
+            {
+              "name": "default",
+              "fullName": "ansible.builtin.default",
+              "shortDescription": "default Ansible screen output"
+            },
+            {
+              "name": "junit",
+              "fullName": "ansible.builtin.junit",
+              "shortDescription": "write playbook output to a JUnit file."
+            },
+            {
+              "name": "minimal",
+              "fullName": "ansible.builtin.minimal",
+              "shortDescription": "minimal Ansible screen output"
+            },
+            {
+              "name": "oneline",
+              "fullName": "ansible.builtin.oneline",
+              "shortDescription": "oneline Ansible screen output"
+            },
+            {
+              "name": "tree",
+              "fullName": "ansible.builtin.tree",
+              "shortDescription": "Save host events to files"
+            }
+          ]
+        },
+        {
+          "type": "connection",
+          "plugins": [
+            {
+              "name": "local",
+              "fullName": "ansible.builtin.local",
+              "shortDescription": "execute on controller"
+            },
+            {
+              "name": "paramiko_ssh",
+              "fullName": "ansible.builtin.paramiko_ssh",
+              "shortDescription": "Run tasks via Python SSH (paramiko)"
+            },
+            {
+              "name": "psrp",
+              "fullName": "ansible.builtin.psrp",
+              "shortDescription": "Run tasks over Microsoft PowerShell Remoting Protocol"
+            },
+            {
+              "name": "ssh",
+              "fullName": "ansible.builtin.ssh",
+              "shortDescription": "connect via SSH client binary"
+            },
+            {
+              "name": "winrm",
+              "fullName": "ansible.builtin.winrm",
+              "shortDescription": "Run tasks over Microsoft's WinRM"
+            }
+          ]
+        },
+        {
+          "type": "filter",
+          "plugins": [
+            {
+              "name": "b64decode",
+              "fullName": "ansible.builtin.b64decode",
+              "shortDescription": "Decode a Base64 string"
+            },
+            {
+              "name": "b64encode",
+              "fullName": "ansible.builtin.b64encode",
+              "shortDescription": "Encode a string as Base64"
+            },
+            {
+              "name": "basename",
+              "fullName": "ansible.builtin.basename",
+              "shortDescription": "get a path's base name"
+            },
+            {
+              "name": "bool",
+              "fullName": "ansible.builtin.bool",
+              "shortDescription": "cast into a boolean"
+            },
+            {
+              "name": "checksum",
+              "fullName": "ansible.builtin.checksum",
+              "shortDescription": "checksum of input data"
+            },
+            {
+              "name": "combinations",
+              "fullName": "ansible.builtin.combinations",
+              "shortDescription": "combinations from the elements of a list"
+            },
+            {
+              "name": "combine",
+              "fullName": "ansible.builtin.combine",
+              "shortDescription": "combine two dictionaries"
+            },
+            {
+              "name": "comment",
+              "fullName": "ansible.builtin.comment",
+              "shortDescription": "comment out a string"
+            },
+            {
+              "name": "commonpath",
+              "fullName": "ansible.builtin.commonpath",
+              "shortDescription": "gets the common path"
+            },
+            {
+              "name": "dict2items",
+              "fullName": "ansible.builtin.dict2items",
+              "shortDescription": "Convert a dictionary into an itemized list of dictionaries"
+            },
+            {
+              "name": "difference",
+              "fullName": "ansible.builtin.difference",
+              "shortDescription": "the difference of one list from another"
+            },
+            {
+              "name": "dirname",
+              "fullName": "ansible.builtin.dirname",
+              "shortDescription": "get a path's directory name"
+            },
+            {
+              "name": "expanduser",
+              "fullName": "ansible.builtin.expanduser",
+              "shortDescription": "Returns a path with C(~) translation."
+            },
+            {
+              "name": "expandvars",
+              "fullName": "ansible.builtin.expandvars",
+              "shortDescription": "expand environment variables"
+            },
+            {
+              "name": "extract",
+              "fullName": "ansible.builtin.extract",
+              "shortDescription": "extract a value based on an index or key"
+            },
+            {
+              "name": "fileglob",
+              "fullName": "ansible.builtin.fileglob",
+              "shortDescription": "explode a path glob to matching files"
+            },
+            {
+              "name": "flatten",
+              "fullName": "ansible.builtin.flatten",
+              "shortDescription": "flatten lists within a list"
+            },
+            {
+              "name": "from_json",
+              "fullName": "ansible.builtin.from_json",
+              "shortDescription": "Convert JSON string into variable structure"
+            },
+            {
+              "name": "from_yaml",
+              "fullName": "ansible.builtin.from_yaml",
+              "shortDescription": "Convert YAML string into variable structure"
+            },
+            {
+              "name": "from_yaml_all",
+              "fullName": "ansible.builtin.from_yaml_all",
+              "shortDescription": "Convert a series of YAML documents into a variable structure"
+            },
+            {
+              "name": "hash",
+              "fullName": "ansible.builtin.hash",
+              "shortDescription": "hash of input data"
+            },
+            {
+              "name": "human_readable",
+              "fullName": "ansible.builtin.human_readable",
+              "shortDescription": "Make bytes/bits human-readable"
+            },
+            {
+              "name": "human_to_bytes",
+              "fullName": "ansible.builtin.human_to_bytes",
+              "shortDescription": "Get bytes from string"
+            },
+            {
+              "name": "intersect",
+              "fullName": "ansible.builtin.intersect",
+              "shortDescription": "intersection of lists"
+            },
+            {
+              "name": "items2dict",
+              "fullName": "ansible.builtin.items2dict",
+              "shortDescription": "Consolidate a list of itemized dictionaries into a dictionary"
+            },
+            {
+              "name": "log",
+              "fullName": "ansible.builtin.log",
+              "shortDescription": "log of (math operation)"
+            },
+            {
+              "name": "mandatory",
+              "fullName": "ansible.builtin.mandatory",
+              "shortDescription": "make a variable's existence mandatory"
+            },
+            {
+              "name": "md5",
+              "fullName": "ansible.builtin.md5",
+              "shortDescription": "MD5 hash of input data"
+            },
+            {
+              "name": "normpath",
+              "fullName": "ansible.builtin.normpath",
+              "shortDescription": "Normalize a pathname"
+            },
+            {
+              "name": "password_hash",
+              "fullName": "ansible.builtin.password_hash",
+              "shortDescription": "convert input password into password_hash"
+            },
+            {
+              "name": "path_join",
+              "fullName": "ansible.builtin.path_join",
+              "shortDescription": "Join one or more path components"
+            },
+            {
+              "name": "permutations",
+              "fullName": "ansible.builtin.permutations",
+              "shortDescription": "permutations from the elements of a list"
+            },
+            {
+              "name": "pow",
+              "fullName": "ansible.builtin.pow",
+              "shortDescription": "power of (math operation)"
+            },
+            {
+              "name": "product",
+              "fullName": "ansible.builtin.product",
+              "shortDescription": "cartesian product of lists"
+            },
+            {
+              "name": "quote",
+              "fullName": "ansible.builtin.quote",
+              "shortDescription": "shell quoting"
+            },
+            {
+              "name": "random",
+              "fullName": "ansible.builtin.random",
+              "shortDescription": "random number or list item"
+            },
+            {
+              "name": "realpath",
+              "fullName": "ansible.builtin.realpath",
+              "shortDescription": "Turn path into real path"
+            },
+            {
+              "name": "regex_escape",
+              "fullName": "ansible.builtin.regex_escape",
+              "shortDescription": "escape regex chars"
+            },
+            {
+              "name": "regex_findall",
+              "fullName": "ansible.builtin.regex_findall",
+              "shortDescription": "extract all regex matches from string"
+            },
+            {
+              "name": "regex_replace",
+              "fullName": "ansible.builtin.regex_replace",
+              "shortDescription": "replace a string via regex"
+            },
+            {
+              "name": "regex_search",
+              "fullName": "ansible.builtin.regex_search",
+              "shortDescription": "extract regex match from string"
+            },
+            {
+              "name": "rekey_on_member",
+              "fullName": "ansible.builtin.rekey_on_member",
+              "shortDescription": "Rekey a list of dicts into a dict using a member"
+            },
+            {
+              "name": "relpath",
+              "fullName": "ansible.builtin.relpath",
+              "shortDescription": "Make a path relative"
+            },
+            {
+              "name": "root",
+              "fullName": "ansible.builtin.root",
+              "shortDescription": "root of (math operation)"
+            },
+            {
+              "name": "sha1",
+              "fullName": "ansible.builtin.sha1",
+              "shortDescription": "SHA-1 hash of input data"
+            },
+            {
+              "name": "shuffle",
+              "fullName": "ansible.builtin.shuffle",
+              "shortDescription": "randomize a list"
+            },
+            {
+              "name": "split",
+              "fullName": "ansible.builtin.split",
+              "shortDescription": "split a string into a list"
+            },
+            {
+              "name": "splitext",
+              "fullName": "ansible.builtin.splitext",
+              "shortDescription": "split a path into root and file extension"
+            },
+            {
+              "name": "strftime",
+              "fullName": "ansible.builtin.strftime",
+              "shortDescription": "date formating"
+            },
+            {
+              "name": "subelements",
+              "fullName": "ansible.builtin.subelements",
+              "shortDescription": "returns a product of a list and its elements"
+            },
+            {
+              "name": "symmetric_difference",
+              "fullName": "ansible.builtin.symmetric_difference",
+              "shortDescription": "different items from two lists"
+            },
+            {
+              "name": "ternary",
+              "fullName": "ansible.builtin.ternary",
+              "shortDescription": "Ternary operation filter"
+            },
+            {
+              "name": "to_datetime",
+              "fullName": "ansible.builtin.to_datetime",
+              "shortDescription": "Get C(datetime) from string"
+            },
+            {
+              "name": "to_json",
+              "fullName": "ansible.builtin.to_json",
+              "shortDescription": "Convert variable to JSON string"
+            },
+            {
+              "name": "to_nice_json",
+              "fullName": "ansible.builtin.to_nice_json",
+              "shortDescription": "Convert variable to 'nicely formatted' JSON string"
+            },
+            {
+              "name": "to_nice_yaml",
+              "fullName": "ansible.builtin.to_nice_yaml",
+              "shortDescription": "Convert variable to YAML string"
+            },
+            {
+              "name": "to_uuid",
+              "fullName": "ansible.builtin.to_uuid",
+              "shortDescription": "namespaced UUID generator"
+            },
+            {
+              "name": "to_yaml",
+              "fullName": "ansible.builtin.to_yaml",
+              "shortDescription": "Convert variable to YAML string"
+            },
+            {
+              "name": "type_debug",
+              "fullName": "ansible.builtin.type_debug",
+              "shortDescription": "show input data type"
+            },
+            {
+              "name": "union",
+              "fullName": "ansible.builtin.union",
+              "shortDescription": "union of lists"
+            },
+            {
+              "name": "unique",
+              "fullName": "ansible.builtin.unique",
+              "shortDescription": "set of unique items of a list"
+            },
+            {
+              "name": "unvault",
+              "fullName": "ansible.builtin.unvault",
+              "shortDescription": "Open an Ansible Vault"
+            },
+            {
+              "name": "urldecode",
+              "fullName": "ansible.builtin.urldecode",
+              "shortDescription": "Decode percent-encoded sequences"
+            },
+            {
+              "name": "urlsplit",
+              "fullName": "ansible.builtin.urlsplit",
+              "shortDescription": "get components from URL"
+            },
+            {
+              "name": "vault",
+              "fullName": "ansible.builtin.vault",
+              "shortDescription": "vault your secrets"
+            },
+            {
+              "name": "win_basename",
+              "fullName": "ansible.builtin.win_basename",
+              "shortDescription": "Get a Windows path's base name"
+            },
+            {
+              "name": "win_dirname",
+              "fullName": "ansible.builtin.win_dirname",
+              "shortDescription": "Get a Windows path's directory"
+            },
+            {
+              "name": "win_splitdrive",
+              "fullName": "ansible.builtin.win_splitdrive",
+              "shortDescription": "Split a Windows path by the drive letter"
+            },
+            {
+              "name": "zip",
+              "fullName": "ansible.builtin.zip",
+              "shortDescription": "combine list elements"
+            },
+            {
+              "name": "zip_longest",
+              "fullName": "ansible.builtin.zip_longest",
+              "shortDescription": "combine list elements, with filler"
+            }
+          ]
+        },
+        {
+          "type": "inventory",
+          "plugins": [
+            {
+              "name": "advanced_host_list",
+              "fullName": "ansible.builtin.advanced_host_list",
+              "shortDescription": "Parses a 'host list' with ranges"
+            },
+            {
+              "name": "auto",
+              "fullName": "ansible.builtin.auto",
+              "shortDescription": "Loads and executes an inventory plugin specified in a YAML config"
+            },
+            {
+              "name": "constructed",
+              "fullName": "ansible.builtin.constructed",
+              "shortDescription": "Uses Jinja2 to construct vars and groups based on existing inventory."
+            },
+            {
+              "name": "generator",
+              "fullName": "ansible.builtin.generator",
+              "shortDescription": "Uses Jinja2 to construct hosts and groups from patterns"
+            },
+            {
+              "name": "host_list",
+              "fullName": "ansible.builtin.host_list",
+              "shortDescription": "Parses a 'host list' string"
+            },
+            {
+              "name": "ini",
+              "fullName": "ansible.builtin.ini",
+              "shortDescription": "Uses an Ansible INI file as inventory source."
+            },
+            {
+              "name": "script",
+              "fullName": "ansible.builtin.script",
+              "shortDescription": "Executes an inventory script that returns JSON"
+            },
+            {
+              "name": "toml",
+              "fullName": "ansible.builtin.toml",
+              "shortDescription": "Uses a specific TOML file as an inventory source."
+            },
+            {
+              "name": "yaml",
+              "fullName": "ansible.builtin.yaml",
+              "shortDescription": "Uses a specific YAML file as an inventory source."
+            }
+          ]
+        },
+        {
+          "type": "lookup",
+          "plugins": [
+            {
+              "name": "config",
+              "fullName": "ansible.builtin.config",
+              "shortDescription": "Display the 'resolved' Ansible option values."
+            },
+            {
+              "name": "csvfile",
+              "fullName": "ansible.builtin.csvfile",
+              "shortDescription": "read data from a TSV or CSV file"
+            },
+            {
+              "name": "dict",
+              "fullName": "ansible.builtin.dict",
+              "shortDescription": "returns key/value pair items from dictionaries"
+            },
+            {
+              "name": "env",
+              "fullName": "ansible.builtin.env",
+              "shortDescription": "Read the value of environment variables"
+            },
+            {
+              "name": "file",
+              "fullName": "ansible.builtin.file",
+              "shortDescription": "read file contents"
+            },
+            {
+              "name": "fileglob",
+              "fullName": "ansible.builtin.fileglob",
+              "shortDescription": "list files matching a pattern"
+            },
+            {
+              "name": "first_found",
+              "fullName": "ansible.builtin.first_found",
+              "shortDescription": "return first file found from list"
+            },
+            {
+              "name": "indexed_items",
+              "fullName": "ansible.builtin.indexed_items",
+              "shortDescription": "rewrites lists to return 'indexed items'"
+            },
+            {
+              "name": "ini",
+              "fullName": "ansible.builtin.ini",
+              "shortDescription": "read data from an ini file"
+            },
+            {
+              "name": "inventory_hostnames",
+              "fullName": "ansible.builtin.inventory_hostnames",
+              "shortDescription": "list of inventory hosts matching a host pattern"
+            },
+            {
+              "name": "items",
+              "fullName": "ansible.builtin.items",
+              "shortDescription": "list of items"
+            },
+            {
+              "name": "lines",
+              "fullName": "ansible.builtin.lines",
+              "shortDescription": "read lines from command"
+            },
+            {
+              "name": "list",
+              "fullName": "ansible.builtin.list",
+              "shortDescription": "simply returns what it is given."
+            },
+            {
+              "name": "nested",
+              "fullName": "ansible.builtin.nested",
+              "shortDescription": "composes a list with nested elements of other lists"
+            },
+            {
+              "name": "password",
+              "fullName": "ansible.builtin.password",
+              "shortDescription": "retrieve or generate a random password, stored in a file"
+            },
+            {
+              "name": "pipe",
+              "fullName": "ansible.builtin.pipe",
+              "shortDescription": "read output from a command"
+            },
+            {
+              "name": "random_choice",
+              "fullName": "ansible.builtin.random_choice",
+              "shortDescription": "return random element from list"
+            },
+            {
+              "name": "sequence",
+              "fullName": "ansible.builtin.sequence",
+              "shortDescription": "generate a list based on a number sequence"
+            },
+            {
+              "name": "subelements",
+              "fullName": "ansible.builtin.subelements",
+              "shortDescription": "traverse nested key from a list of dictionaries"
+            },
+            {
+              "name": "template",
+              "fullName": "ansible.builtin.template",
+              "shortDescription": "retrieve contents of file after templating with Jinja2"
+            },
+            {
+              "name": "together",
+              "fullName": "ansible.builtin.together",
+              "shortDescription": "merges lists into synchronized list"
+            },
+            {
+              "name": "unvault",
+              "fullName": "ansible.builtin.unvault",
+              "shortDescription": "read vaulted file(s) contents"
+            },
+            {
+              "name": "url",
+              "fullName": "ansible.builtin.url",
+              "shortDescription": "return contents from URL"
+            },
+            {
+              "name": "varnames",
+              "fullName": "ansible.builtin.varnames",
+              "shortDescription": "Lookup matching variable names"
+            },
+            {
+              "name": "vars",
+              "fullName": "ansible.builtin.vars",
+              "shortDescription": "Lookup templated value of variables"
+            }
+          ]
+        },
+        {
+          "type": "module",
+          "plugins": [
+            {
+              "name": "add_host",
+              "fullName": "ansible.builtin.add_host",
+              "shortDescription": "Add a host (and alternatively a group) to the ansible-playbook in-memory inventory"
+            },
+            {
+              "name": "apt",
+              "fullName": "ansible.builtin.apt",
+              "shortDescription": "Manages apt-packages"
+            },
+            {
+              "name": "apt_key",
+              "fullName": "ansible.builtin.apt_key",
+              "shortDescription": "Add or remove an apt key"
+            },
+            {
+              "name": "apt_repository",
+              "fullName": "ansible.builtin.apt_repository",
+              "shortDescription": "Add and remove APT repositories"
+            },
+            {
+              "name": "assemble",
+              "fullName": "ansible.builtin.assemble",
+              "shortDescription": "Assemble configuration files from fragments"
+            },
+            {
+              "name": "assert",
+              "fullName": "ansible.builtin.assert",
+              "shortDescription": "Asserts given expressions are true"
+            },
+            {
+              "name": "async_status",
+              "fullName": "ansible.builtin.async_status",
+              "shortDescription": "Obtain status of asynchronous task"
+            },
+            {
+              "name": "blockinfile",
+              "fullName": "ansible.builtin.blockinfile",
+              "shortDescription": "Insert/update/remove a text block surrounded by marker lines"
+            },
+            {
+              "name": "command",
+              "fullName": "ansible.builtin.command",
+              "shortDescription": "Execute commands on targets"
+            },
+            {
+              "name": "copy",
+              "fullName": "ansible.builtin.copy",
+              "shortDescription": "Copy files to remote locations"
+            },
+            {
+              "name": "cron",
+              "fullName": "ansible.builtin.cron",
+              "shortDescription": "Manage cron.d and crontab entries"
+            },
+            {
+              "name": "deb822_repository",
+              "fullName": "ansible.builtin.deb822_repository",
+              "shortDescription": "Add and remove deb822 formatted repositories"
+            },
+            {
+              "name": "debconf",
+              "fullName": "ansible.builtin.debconf",
+              "shortDescription": "Configure a .deb package"
+            },
+            {
+              "name": "debug",
+              "fullName": "ansible.builtin.debug",
+              "shortDescription": "Print statements during execution"
+            },
+            {
+              "name": "dnf",
+              "fullName": "ansible.builtin.dnf",
+              "shortDescription": "Manages packages with the I(dnf) package manager"
+            },
+            {
+              "name": "dnf5",
+              "fullName": "ansible.builtin.dnf5",
+              "shortDescription": "Manages packages with the I(dnf5) package manager"
+            },
+            {
+              "name": "dpkg_selections",
+              "fullName": "ansible.builtin.dpkg_selections",
+              "shortDescription": "Dpkg package selection selections"
+            },
+            {
+              "name": "expect",
+              "fullName": "ansible.builtin.expect",
+              "shortDescription": "Executes a command and responds to prompts"
+            },
+            {
+              "name": "fail",
+              "fullName": "ansible.builtin.fail",
+              "shortDescription": "Fail with custom message"
+            },
+            {
+              "name": "fetch",
+              "fullName": "ansible.builtin.fetch",
+              "shortDescription": "Fetch files from remote nodes"
+            },
+            {
+              "name": "file",
+              "fullName": "ansible.builtin.file",
+              "shortDescription": "Manage files and file properties"
+            },
+            {
+              "name": "find",
+              "fullName": "ansible.builtin.find",
+              "shortDescription": "Return a list of files based on specific criteria"
+            },
+            {
+              "name": "gather_facts",
+              "fullName": "ansible.builtin.gather_facts",
+              "shortDescription": "Gathers facts about remote hosts"
+            },
+            {
+              "name": "get_url",
+              "fullName": "ansible.builtin.get_url",
+              "shortDescription": "Downloads files from HTTP, HTTPS, or FTP to node"
+            },
+            {
+              "name": "getent",
+              "fullName": "ansible.builtin.getent",
+              "shortDescription": "A wrapper to the unix getent utility"
+            },
+            {
+              "name": "git",
+              "fullName": "ansible.builtin.git",
+              "shortDescription": "Deploy software (or files) from git checkouts"
+            },
+            {
+              "name": "group",
+              "fullName": "ansible.builtin.group",
+              "shortDescription": "Add or remove groups"
+            },
+            {
+              "name": "group_by",
+              "fullName": "ansible.builtin.group_by",
+              "shortDescription": "Create Ansible groups based on facts"
+            },
+            {
+              "name": "hostname",
+              "fullName": "ansible.builtin.hostname",
+              "shortDescription": "Manage hostname"
+            },
+            {
+              "name": "import_playbook",
+              "fullName": "ansible.builtin.import_playbook",
+              "shortDescription": "Import a playbook"
+            },
+            {
+              "name": "import_role",
+              "fullName": "ansible.builtin.import_role",
+              "shortDescription": "Import a role into a play"
+            },
+            {
+              "name": "import_tasks",
+              "fullName": "ansible.builtin.import_tasks",
+              "shortDescription": "Import a task list"
+            },
+            {
+              "name": "include_role",
+              "fullName": "ansible.builtin.include_role",
+              "shortDescription": "Load and execute a role"
+            },
+            {
+              "name": "include_tasks",
+              "fullName": "ansible.builtin.include_tasks",
+              "shortDescription": "Dynamically include a task list"
+            },
+            {
+              "name": "include_vars",
+              "fullName": "ansible.builtin.include_vars",
+              "shortDescription": "Load variables from files, dynamically within a task"
+            },
+            {
+              "name": "iptables",
+              "fullName": "ansible.builtin.iptables",
+              "shortDescription": "Modify iptables rules"
+            },
+            {
+              "name": "known_hosts",
+              "fullName": "ansible.builtin.known_hosts",
+              "shortDescription": "Add or remove a host from the C(known_hosts) file"
+            },
+            {
+              "name": "lineinfile",
+              "fullName": "ansible.builtin.lineinfile",
+              "shortDescription": "Manage lines in text files"
+            },
+            {
+              "name": "meta",
+              "fullName": "ansible.builtin.meta",
+              "shortDescription": "Execute Ansible 'actions'"
+            },
+            {
+              "name": "mount_facts",
+              "fullName": "ansible.builtin.mount_facts",
+              "shortDescription": "Retrieve mount information."
+            },
+            {
+              "name": "package",
+              "fullName": "ansible.builtin.package",
+              "shortDescription": "Generic OS package manager"
+            },
+            {
+              "name": "package_facts",
+              "fullName": "ansible.builtin.package_facts",
+              "shortDescription": "Package information as facts"
+            },
+            {
+              "name": "pause",
+              "fullName": "ansible.builtin.pause",
+              "shortDescription": "Pause playbook execution"
+            },
+            {
+              "name": "ping",
+              "fullName": "ansible.builtin.ping",
+              "shortDescription": "Try to connect to host, verify a usable python and return V(pong) on success"
+            },
+            {
+              "name": "pip",
+              "fullName": "ansible.builtin.pip",
+              "shortDescription": "Manages Python library dependencies"
+            },
+            {
+              "name": "raw",
+              "fullName": "ansible.builtin.raw",
+              "shortDescription": "Executes a low-down and dirty command"
+            },
+            {
+              "name": "reboot",
+              "fullName": "ansible.builtin.reboot",
+              "shortDescription": "Reboot a machine"
+            },
+            {
+              "name": "replace",
+              "fullName": "ansible.builtin.replace",
+              "shortDescription": "Replace all instances of a particular string in a file using a back-referenced regular expression"
+            },
+            {
+              "name": "rpm_key",
+              "fullName": "ansible.builtin.rpm_key",
+              "shortDescription": "Adds or removes a gpg key from the rpm db"
+            },
+            {
+              "name": "script",
+              "fullName": "ansible.builtin.script",
+              "shortDescription": "Runs a local script on a remote node after transferring it"
+            },
+            {
+              "name": "service",
+              "fullName": "ansible.builtin.service",
+              "shortDescription": "Manage services"
+            },
+            {
+              "name": "service_facts",
+              "fullName": "ansible.builtin.service_facts",
+              "shortDescription": "Return service state information as fact data"
+            },
+            {
+              "name": "set_fact",
+              "fullName": "ansible.builtin.set_fact",
+              "shortDescription": "Set host variable(s) and fact(s)."
+            },
+            {
+              "name": "set_stats",
+              "fullName": "ansible.builtin.set_stats",
+              "shortDescription": "Define and display stats for the current ansible run"
+            },
+            {
+              "name": "setup",
+              "fullName": "ansible.builtin.setup",
+              "shortDescription": "Gathers facts about remote hosts"
+            },
+            {
+              "name": "shell",
+              "fullName": "ansible.builtin.shell",
+              "shortDescription": "Execute shell commands on targets"
+            },
+            {
+              "name": "slurp",
+              "fullName": "ansible.builtin.slurp",
+              "shortDescription": "Slurps a file from remote nodes"
+            },
+            {
+              "name": "stat",
+              "fullName": "ansible.builtin.stat",
+              "shortDescription": "Retrieve file or file system status"
+            },
+            {
+              "name": "subversion",
+              "fullName": "ansible.builtin.subversion",
+              "shortDescription": "Deploys a subversion repository"
+            },
+            {
+              "name": "systemd",
+              "fullName": "ansible.builtin.systemd",
+              "shortDescription": "Manage systemd units"
+            },
+            {
+              "name": "systemd_service",
+              "fullName": "ansible.builtin.systemd_service",
+              "shortDescription": "Manage systemd units"
+            },
+            {
+              "name": "sysvinit",
+              "fullName": "ansible.builtin.sysvinit",
+              "shortDescription": "Manage SysV services."
+            },
+            {
+              "name": "tempfile",
+              "fullName": "ansible.builtin.tempfile",
+              "shortDescription": "Creates temporary files and directories"
+            },
+            {
+              "name": "template",
+              "fullName": "ansible.builtin.template",
+              "shortDescription": "Template a file out to a target host"
+            },
+            {
+              "name": "unarchive",
+              "fullName": "ansible.builtin.unarchive",
+              "shortDescription": "Unpacks an archive after (optionally) copying it from the local machine"
+            },
+            {
+              "name": "uri",
+              "fullName": "ansible.builtin.uri",
+              "shortDescription": "Interacts with webservices"
+            },
+            {
+              "name": "user",
+              "fullName": "ansible.builtin.user",
+              "shortDescription": "Manage user accounts"
+            },
+            {
+              "name": "validate_argument_spec",
+              "fullName": "ansible.builtin.validate_argument_spec",
+              "shortDescription": "Validate role argument specs."
+            },
+            {
+              "name": "wait_for",
+              "fullName": "ansible.builtin.wait_for",
+              "shortDescription": "Waits for a condition before continuing"
+            },
+            {
+              "name": "wait_for_connection",
+              "fullName": "ansible.builtin.wait_for_connection",
+              "shortDescription": "Waits until remote system is reachable/usable"
+            },
+            {
+              "name": "yum_repository",
+              "fullName": "ansible.builtin.yum_repository",
+              "shortDescription": "Add or remove YUM repositories"
+            }
+          ]
+        },
+        {
+          "type": "shell",
+          "plugins": [
+            {
+              "name": "cmd",
+              "fullName": "ansible.builtin.cmd",
+              "shortDescription": "Windows Command Prompt"
+            },
+            {
+              "name": "powershell",
+              "fullName": "ansible.builtin.powershell",
+              "shortDescription": "Windows PowerShell"
+            },
+            {
+              "name": "sh",
+              "fullName": "ansible.builtin.sh",
+              "shortDescription": "POSIX shell (/bin/sh)"
+            }
+          ]
+        },
+        {
+          "type": "strategy",
+          "plugins": [
+            {
+              "name": "debug",
+              "fullName": "ansible.builtin.debug",
+              "shortDescription": "Executes tasks in interactive debug session."
+            },
+            {
+              "name": "free",
+              "fullName": "ansible.builtin.free",
+              "shortDescription": "Executes tasks without waiting for all hosts"
+            },
+            {
+              "name": "host_pinned",
+              "fullName": "ansible.builtin.host_pinned",
+              "shortDescription": "Executes tasks on each host without interruption"
+            },
+            {
+              "name": "linear",
+              "fullName": "ansible.builtin.linear",
+              "shortDescription": "Executes tasks in a linear fashion"
+            }
+          ]
+        },
+        {
+          "type": "test",
+          "plugins": [
+            {
+              "name": "abs",
+              "fullName": "ansible.builtin.abs",
+              "shortDescription": "is the path absolute"
+            },
+            {
+              "name": "all",
+              "fullName": "ansible.builtin.all",
+              "shortDescription": "are all conditions in a list true"
+            },
+            {
+              "name": "any",
+              "fullName": "ansible.builtin.any",
+              "shortDescription": "is any condition in a list true"
+            },
+            {
+              "name": "change",
+              "fullName": "ansible.builtin.change",
+              "shortDescription": "did the task require changes"
+            },
+            {
+              "name": "changed",
+              "fullName": "ansible.builtin.changed",
+              "shortDescription": "did the task require changes"
+            },
+            {
+              "name": "contains",
+              "fullName": "ansible.builtin.contains",
+              "shortDescription": "does the list contain this element"
+            },
+            {
+              "name": "directory",
+              "fullName": "ansible.builtin.directory",
+              "shortDescription": "does the path resolve to an existing directory"
+            },
+            {
+              "name": "exists",
+              "fullName": "ansible.builtin.exists",
+              "shortDescription": "does the path exist, follow symlinks"
+            },
+            {
+              "name": "failed",
+              "fullName": "ansible.builtin.failed",
+              "shortDescription": "did the task fail"
+            },
+            {
+              "name": "failure",
+              "fullName": "ansible.builtin.failure",
+              "shortDescription": "did the task fail"
+            },
+            {
+              "name": "falsy",
+              "fullName": "ansible.builtin.falsy",
+              "shortDescription": "Pythonic false"
+            },
+            {
+              "name": "file",
+              "fullName": "ansible.builtin.file",
+              "shortDescription": "does the path resolve to an existing file"
+            },
+            {
+              "name": "finished",
+              "fullName": "ansible.builtin.finished",
+              "shortDescription": "Did async task finish"
+            },
+            {
+              "name": "is_abs",
+              "fullName": "ansible.builtin.is_abs",
+              "shortDescription": "is the path absolute"
+            },
+            {
+              "name": "is_dir",
+              "fullName": "ansible.builtin.is_dir",
+              "shortDescription": "does the path resolve to an existing directory"
+            },
+            {
+              "name": "is_file",
+              "fullName": "ansible.builtin.is_file",
+              "shortDescription": "does the path resolve to an existing file"
+            },
+            {
+              "name": "is_link",
+              "fullName": "ansible.builtin.is_link",
+              "shortDescription": "does the path reference existing symbolic link"
+            },
+            {
+              "name": "is_mount",
+              "fullName": "ansible.builtin.is_mount",
+              "shortDescription": "does the path resolve to mount point"
+            },
+            {
+              "name": "is_same_file",
+              "fullName": "ansible.builtin.is_same_file",
+              "shortDescription": "compares two paths to see if they resolve to the same filesystem object"
+            },
+            {
+              "name": "isnan",
+              "fullName": "ansible.builtin.isnan",
+              "shortDescription": "is this not a number (NaN)"
+            },
+            {
+              "name": "issubset",
+              "fullName": "ansible.builtin.issubset",
+              "shortDescription": "is the list a subset of this other list"
+            },
+            {
+              "name": "issuperset",
+              "fullName": "ansible.builtin.issuperset",
+              "shortDescription": "is the list a superset of this other list"
+            },
+            {
+              "name": "link",
+              "fullName": "ansible.builtin.link",
+              "shortDescription": "does the path reference existing symbolic link"
+            },
+            {
+              "name": "link_exists",
+              "fullName": "ansible.builtin.link_exists",
+              "shortDescription": "does the path exist, no follow"
+            },
+            {
+              "name": "match",
+              "fullName": "ansible.builtin.match",
+              "shortDescription": "Does string match regular expression from the start"
+            },
+            {
+              "name": "mount",
+              "fullName": "ansible.builtin.mount",
+              "shortDescription": "does the path resolve to mount point"
+            },
+            {
+              "name": "nan",
+              "fullName": "ansible.builtin.nan",
+              "shortDescription": "is this not a number (NaN)"
+            },
+            {
+              "name": "reachable",
+              "fullName": "ansible.builtin.reachable",
+              "shortDescription": "Task did not end due to unreachable host"
+            },
+            {
+              "name": "regex",
+              "fullName": "ansible.builtin.regex",
+              "shortDescription": "Does string match regular expression from the start"
+            },
+            {
+              "name": "same_file",
+              "fullName": "ansible.builtin.same_file",
+              "shortDescription": "compares two paths to see if they resolve to the same filesystem object"
+            },
+            {
+              "name": "search",
+              "fullName": "ansible.builtin.search",
+              "shortDescription": "Does string match a regular expression"
+            },
+            {
+              "name": "skip",
+              "fullName": "ansible.builtin.skip",
+              "shortDescription": "Was task skipped"
+            },
+            {
+              "name": "skipped",
+              "fullName": "ansible.builtin.skipped",
+              "shortDescription": "Was task skipped"
+            },
+            {
+              "name": "started",
+              "fullName": "ansible.builtin.started",
+              "shortDescription": "Was async task started"
+            },
+            {
+              "name": "subset",
+              "fullName": "ansible.builtin.subset",
+              "shortDescription": "is the list a subset of this other list"
+            },
+            {
+              "name": "succeeded",
+              "fullName": "ansible.builtin.succeeded",
+              "shortDescription": "check task success"
+            },
+            {
+              "name": "success",
+              "fullName": "ansible.builtin.success",
+              "shortDescription": "check task success"
+            },
+            {
+              "name": "successful",
+              "fullName": "ansible.builtin.successful",
+              "shortDescription": "check task success"
+            },
+            {
+              "name": "superset",
+              "fullName": "ansible.builtin.superset",
+              "shortDescription": "is the list a superset of this other list"
+            },
+            {
+              "name": "timedout",
+              "fullName": "ansible.builtin.timedout",
+              "shortDescription": "did the task time out"
+            },
+            {
+              "name": "truthy",
+              "fullName": "ansible.builtin.truthy",
+              "shortDescription": "Pythonic true"
+            },
+            {
+              "name": "unreachable",
+              "fullName": "ansible.builtin.unreachable",
+              "shortDescription": "Did task end due to the host was unreachable"
+            },
+            {
+              "name": "uri",
+              "fullName": "ansible.builtin.uri",
+              "shortDescription": "is the string a valid URI"
+            },
+            {
+              "name": "url",
+              "fullName": "ansible.builtin.url",
+              "shortDescription": "is the string a valid URL"
+            },
+            {
+              "name": "urn",
+              "fullName": "ansible.builtin.urn",
+              "shortDescription": "is the string a valid URN"
+            },
+            {
+              "name": "vault_encrypted",
+              "fullName": "ansible.builtin.vault_encrypted",
+              "shortDescription": "Is this an encrypted vault string"
+            },
+            {
+              "name": "vaulted_file",
+              "fullName": "ansible.builtin.vaulted_file",
+              "shortDescription": "Is this file an encrypted vault"
+            },
+            {
+              "name": "version",
+              "fullName": "ansible.builtin.version",
+              "shortDescription": "compare version strings"
+            },
+            {
+              "name": "version_compare",
+              "fullName": "ansible.builtin.version_compare",
+              "shortDescription": "compare version strings"
+            }
+          ]
+        },
+        {
+          "type": "vars",
+          "plugins": [
+            {
+              "name": "host_group_vars",
+              "fullName": "ansible.builtin.host_group_vars",
+              "shortDescription": "In charge of loading group_vars and host_vars"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
